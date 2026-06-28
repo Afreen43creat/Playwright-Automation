@@ -109,28 +109,5 @@ The framework captures:
 - HTML report: `playwright-report`
 - Allure results: `allure-results`
 
-## CI/CD
 
-GitHub Actions runs on pushes, pull requests, and manual dispatch. It installs dependencies, installs Playwright browsers, executes tests, and uploads reports plus debug artifacts.
 
-## Best Practices Used
-
-- POM keeps selectors out of test bodies.
-- Fixtures centralize setup and dependency creation.
-- JSON files separate test data from test logic.
-- Tags support targeted suites.
-- Parallel execution and retries are configured in `playwright.config.js`.
-- Assertions verify user-visible outcomes and API contracts.
-
-## Sample Interview Questions
-
-1. Why use Playwright fixtures instead of `beforeEach` for all setup?
-2. How does Page Object Model improve maintainability?
-3. What is the difference between browser, browser context, and page?
-4. How do retries, traces, videos, and screenshots help debug flaky tests?
-5. How would you design test data for parallel execution?
-6. When should you mock an API versus testing against a real service?
-7. How do Playwright tags help CI pipelines?
-8. What makes an assertion reliable in UI automation?
-9. How would you handle authentication state reuse?
-10. How do you prevent tests from depending on execution order?
