@@ -1,0 +1,10 @@
+{
+  "productsEndpoint": "/products",
+  "ordersEndpoint": "/orders",
+  "paymentEndpointPattern": "**/payments/**",
+  "sampleOrder": {
+    "productId": "sauce-labs-backpack",
+    "quantity": 1,
+    "customerId": "customer-001"
+  }
+}

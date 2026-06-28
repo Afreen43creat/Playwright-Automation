@@ -1,0 +1,14 @@
+{
+  "customer": {
+    "firstName": "Alex",
+    "lastName": "Morgan",
+    "postalCode": "10001"
+  },
+  "payment": {
+    "cardType": "visa",
+    "lastFour": "4242"
+  },
+  "shipping": {
+    "method": "standard"
+  }
+}

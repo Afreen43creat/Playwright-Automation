@@ -1,0 +1,17 @@
+{
+  "primaryProduct": {
+    "name": "Sauce Labs Backpack",
+    "expectedPrice": 29.99
+  },
+  "secondaryProduct": {
+    "name": "Sauce Labs Bike Light",
+    "expectedPrice": 9.99
+  },
+  "filter": {
+    "priceLowToHigh": "Price (low to high)"
+  },
+  "coupon": {
+    "validCode": "SAVE10",
+    "invalidCode": "EXPIRED10"
+  }
+}
